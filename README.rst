@@ -30,7 +30,14 @@ Package to fix minor GeoJSON schema violations
 Features
 --------
 
-* TODO
+* Removes objects that don't confirm to GeoJSON standards (in collections too)
+* Polygons with 3 nodes, change to 4 nodes using linear interpolation between two of the nodes.
+
+
+To Do
+-----
+
+* Write tests
 
 Credits
 -------
